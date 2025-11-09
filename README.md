@@ -18,40 +18,36 @@ git clone https://github.com/PoojaS2120/Sign-Language-Recognition-Translation-We
 cd Sign-Language-Recognition-Translation-Web-App
 
 3️⃣ Create & Activate Virtual Environment (Recommended)
-bash
-Copy code
+```bash
 python -m venv venv
 venv\Scripts\activate
-On Linux/macOS:
 
-bash
-Copy code
+On Linux/macOS:
+```bash
 source venv/bin/activate
+
 4️⃣ Install Dependencies
 All required libraries are listed in requirements.txt.
-
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+
 5️⃣ Tech Stack
 See techstack.txt for a full list of technologies used.
 
 🧠 Model Training (First Time Setup)
 No pre-trained model is included.
 To create and train your own sign language recognition model:
-
-bash
-Copy code
+```bash
 python app/training.py
+
 ➡️ This script will process your dataset and generate:
 Dataset/sign_language_model.h5
 
 🚀 Run the Project
 Start the Django development server:
-
-bash
-Copy code
+```bash
 python manage.py runserver
+
 ➡️ Access the web app at:
 http://localhost:8000
 
@@ -91,8 +87,7 @@ For hand detection, install mediapipe.
 For deep learning, install tensorflow and keras.
 
 ⚙️ Quick Start
-bash
-Copy code
+```bash
 # Clone, create virtual environment, install dependencies, train model, run server
 git clone https://github.com/yourusername/sign_language.git
 cd sign_language
